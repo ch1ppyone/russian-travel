@@ -1,11 +1,25 @@
 .place__paragraph {
-  margin:0;
-  margin-bottom: 26px ;
+  margin: 0 0 26px;
   font-weight: normal;
   font-size: 18px;
   line-height: 163%;
 }
 
 .place__paragraph:last-of-type {
+  margin-top: 28;
   margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    grid-column: 1;
+    margin-top: 32px;
+    padding: 0 16px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width: 288px;
+  }
 }

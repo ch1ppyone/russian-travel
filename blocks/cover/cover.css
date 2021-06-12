@@ -4,3 +4,14 @@
   max-width: 1184px;
   position: relative;
 }
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding-top: 90px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .places {
+    padding-top: 66px;
+  }
+}
