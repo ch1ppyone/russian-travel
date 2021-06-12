@@ -1,5 +1,16 @@
-.footer__link-container
-{
+.footer__link-container {
+  margin-right: 18px;
   text-decoration: none;
   color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__link-container {
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 24px;
+  }
 }
